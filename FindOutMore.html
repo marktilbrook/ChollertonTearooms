@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <meta charset="utf-8">
+    <title>Find Out More Page</title>
+  </head>
+  <body>
+    <h1 class="FindOutMore">Find Out More</h1>
+    <div class="form">
+        <form action="sendForm.php" method="get">
+          <p>
+            <label for="forename">First Name</label>
+            <input type="text" id="forename" name="forename" aria-required="true" required>
+          </p>
+          <p>
+            <label for="surname">Last Name</label>
+            <input type="text" id="surname" name="surname" aria-required="true" required>
+          </p>
+          <p>
+            <label for="postalAddress">Postal Address</label>
+            <input type="text" id="postalAddress" name="postalAddress" required>
+          </p>
+          <p>
+            <label for="landLineTelNo">Landline Tel No</label>
+            <input type="text" id="landLineTelNo" name="landLineTelNo">
+          </p>
+          <p>
+            <label for="mobileTelNo">Mobile Tel No</label>
+            <input type="text" id="mobileTelNo" name="mobileTelNo" required>
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" aria-required="true" required>
+          </p>
+
+          <p>
+            <label for="sendMethod">How would you like to receive your information?</label>
+                <select name="sendMethod" class="sendMethod" aria-required="true" required>
+                <option value="post">Post</option>
+                <option value="SMS">SMS</option>
+                <option value="email">Email</option>
+            </select>
+          </p>
+          <p>
+            <label for="catID">What category of information would you like to receive?</label>
+            <select name="catID" class="catID" aria-required="true" required>
+                <option value="c1">Tearoom</option>
+                <option value="c2">Craft Shop</option>
+                <option value="c3">Village Store</option>
+                <option value="c4">Post Office</option>
+                <option value="c5">Bed and Breakfast</option>
+            </select>
+          </p>
+          <p>
+            <input type="submit" value="Send it!">
+          </p>
+        </form>
+    </div>
+    <footer class="footer">
+
+        <p>Phone number: 07932087262</p>
+        <p>Email Address: <a href="mailto:someone@example.com" tabindex="0">
+            chollertonTR@gmail.com</a>.</p>
+    </footer>
+
+  </body>
+</html>

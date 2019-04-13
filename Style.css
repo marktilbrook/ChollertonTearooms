@@ -1,0 +1,169 @@
+/*font-family: 'Mali', cursive;*/
+/*font-family: 'Indie Flower', cursive;*/
+/*font-family: 'Permanent Marker', cursive;*/
+/*font-family: 'Cormorant Garamond', serif;*/
+body{
+    background-color: #c8d39c;
+    margin: 25px 25px 25px 5px;
+}
+h1{
+    padding: 10px 0px 5px 250px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-right: 150px;
+    overflow-wrap: break-spaces;
+}
+
+.fa-coffee{
+    font-size: 75px;
+    padding-left: 25px;
+}
+
+.MainBody{
+    /*margin: 25px 25px 25px 5px;*/
+    /*border: solid;*/
+}
+.sidenav{
+    height: 350px;
+    width: 140px; /* Set the width of the sidebar */
+    float: left;/* Fixed Sidebar (stay in place on scroll) */
+    /*top: 0; !* Stay at the top *!*/
+    /*left: 0;*/
+    overflow-x: hidden;
+    overflow-y: hidden;/* Disable horizontal scroll */
+    padding: 20px 25px 200px 0px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 10px 0px 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+}
+
+.sidenav a:visited {
+    color: #800416;
+}
+.sidenav a:hover{
+    color: #ffa2e6;
+}
+.sidenav a:active {
+    color: #009c0d;
+}
+
+main{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    padding: 20px 25px 100px 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px 0px 5px 55px;
+    display: block;
+    border-radius: 15px;
+}
+
+.pic2{
+    margin-top: 65px;
+}
+
+.pic4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+}
+
+.pic5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img{
+    border-radius: 25px;
+}
+
+.footer{
+    padding-left: 150px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.form {
+  border-radius: 25px;
+  background-color: #bac884;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 25px;
+}
+
+.form {
+  width: 575px;
+  clear: both;
+}
+
+.form input {
+  width: 100%;
+  clear: both;
+}
+
+.form form {
+  display: table;
+}
+
+.form form p {
+  display: table-row;
+}
+
+.form form p label{
+  font-family: 'Indie Flower';
+  font-size: 18px;
+}
+
+.form form p label,
+.form form p input[type=text] {
+  width: 200px:
+  display: table-cell;
+}
+
+/* this is for the button*/
+.form form p:last-child {
+  display: block;
+}
+
+input[type=text], select {
+  padding: 5px;
+  margin: 5px;
+  /* display: inline-block; */
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.FindOutMore{
+  padding: 0px 0px 0px 50px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  margin-left: 150px;
+}
+
+.FR
+{
+  font-size: 200px;
+}
